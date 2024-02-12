@@ -9,7 +9,7 @@ const AllPosts = () => {
 
         (async function getData()
         {
-            const response= await axios.get("https://a-five-sandy.vercel.app/posts").then((res)=>res.data);
+            const response= await axios.get("https://practice-app-backend.vercel.app/posts").then((res)=>res.data);
             console.log(response.data)
             setData(response.data);
         })();

@@ -11,7 +11,7 @@ const CreatePost = () => {
     const saveData=async(e)=>{
         e.preventDefault();   
         try {
-            await axios.post("https://a-five-sandy.vercel.app/savePost",{
+            await axios.post("https://practice-app-backend.vercel.app/savePost",{
                  title,
                  description
             });
